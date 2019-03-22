@@ -1,6 +1,6 @@
 <template>
     <div>  <div v-for="(i,index) in todo" :key="index">
-      {{ i.toString() }}
+      {{ i["todo"] }}
       </div></div>
 </template>
 

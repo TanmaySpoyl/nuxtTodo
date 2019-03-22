@@ -3,7 +3,7 @@ import Dexie from 'dexie'
 const db = new Dexie('TODO')
 
 const table = {
-  todos: 'todo',
+  todos: 'id++ , todo',
 }
 
 db.version(1).stores(table);
